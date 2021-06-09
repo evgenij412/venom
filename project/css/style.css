@@ -1,7 +1,12 @@
 body {
-  background-color: #14131a;
+  overflow: hidden;
   color: #fff;
   font-family: "Roboto", sans-serif;
+}
+
+.body {
+  background: url(../img/blood.png) no-repeat top right,
+    #14131a url(../img/background.jpg) no-repeat center / 100%;
 }
 
 .container {
@@ -60,4 +65,48 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-group {
+  margin-top: 70px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 15px;
+  height: auto;
+}
+
+.btn img,
+.btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn span {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #8d0019;
+}
+
+.btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
