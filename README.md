@@ -1,2 +1,2 @@
-# venom - ext,ysq ghjtrn Glo Academy
+# venom - учебный проект Glo Academy
 ## Проект выполнил: Добряков Евгений
